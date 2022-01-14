@@ -1,0 +1,114 @@
+.login-top {
+  width: 90%;
+  margin: 0 auto;
+  line-height: 60px;
+}
+.logo-icon {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  font-family: "PingFangSC-Medium", "PingFang SC Medium", "PingFang SC",
+    sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #1d3f8b;
+  user-select: none;
+}
+.logo-text {
+  margin: 0 0 0 10px;
+}
+.login-main {
+  /* width: 80%; */
+  height: 470px;
+  margin: calc((100vh - 491px - 60px) / 2) auto 0;
+  display: flex;
+}
+.login-main-left {
+  background-color: rgba(56, 74, 104, 1);
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 15%);
+  width: 50%;
+}
+.mian-left-icon {
+  width: 367px;
+  height: 260px;
+}
+.main-left-bg {
+  text-align: center;
+  margin: 60px 0 0;
+}
+.login-main-right {
+  background-color: #fff;
+  width: 50%;
+}
+.main-left-title {
+  width: 70%;
+  margin: 0 auto;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  padding: 66px 0 0;
+}
+.main-left-desc {
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  color: #f0f0f0;
+  width: 70%;
+  margin: 16px auto 0;
+}
+
+.right-title {
+  width: 86%;
+}
+.main-right-row {
+  display: flex;
+  align-items: center;
+}
+.right-title-space {
+  width: 80px;
+  font-size: 14px;
+}
+.btn-login {
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #ffffff;
+  width: 86%;
+}
+.right-row-tips {
+  display: flex;
+  justify-content: space-between;
+  width: 86%;
+}
+.right-title-space {
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4d4d4d;
+}
+.right-title-input {
+  line-height: 45px;
+  /* width: 100%; */
+  width: 86%;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+}
+.right-title-input input {
+  /* width: 100%; */
+  height: 100%;
+  padding: 0 0 0 10px;
+  font-size: 14px;
+}
+.main-right-account {
+  margin: 32px 0 18px;
+}
+.main-right-btn {
+  margin: 20px 0;
+}
+.main-right-warpper {
+  padding: 86px 41px;
+}
