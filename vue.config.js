@@ -10,7 +10,7 @@ function resolve (dir) {
 }
 
 
-let url = "http://192.168.5.6:9999";
+let url = "http://8.131.225.170:9999";
 module.exports = {
   publicPath: "./", // 打包基本路径
   configureWebpack: {
